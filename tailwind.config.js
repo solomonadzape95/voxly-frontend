@@ -2,8 +2,12 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        hero: '"Clash Display"',
+        sansPro: "DM Sans",
+      },
+    },
   },
   plugins: [],
 };
-
